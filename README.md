@@ -4,6 +4,14 @@ This example is the same as the example in the GitHub repo of react-material-ui-
 
 ## How to demonstrate
 
+Clone the repository.
+
+### Quick run
+
+The compiled files are already there in the `dist/` directory. Run `node dist/server.bundle.js` and point your browser to http://localhost:8000.
+
+### DIY
+
 Install all dependencies:
 
 `$ npm install`
@@ -20,13 +28,13 @@ Point your browser to http://localhost:8000.
 
 ## The issue
 
-1. Observe that the navigation button links are seen below the item, whereas they shouuld be on the sides.
+1. Observe that the navigation button links are seen below the item, whereas they shouuld be on the sides. Here is a screenshot:
 
-[Screenshot](item-1-issue.png)
+![Screenshot](item-1-issue.png)
 
 2. Swipe/click on next button to go to the second item. Observe that the item is shown one item-height below where it should be, covering the navigation buttons.
 
-[Screenshot](item-1-issue.png)
+![Screenshot](item-2-issue.png)
 
 ## Conditions for the issue to appear:
 
